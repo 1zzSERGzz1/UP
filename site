@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UP! - Платформер игра</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0ff;
+            color: #333;
+        }
+        header {
+            background-color: #d7f77e;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            margin: 0;
+        }
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #d7f77e;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #d7f77e;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>UP! - Захватывающий платформер</h1>
+    </header>
+
+    <section id="about">
+        <h2>О игре</h2>
+        <p>Добро пожаловать в мир игры UP! – динамичного платформера, где главный герой, храбрый рыцарь, стремится подняться на вершину древней башни! Ваша цель – преодолевать уровни, полные ловушек, прыжков и секретов, чтобы достичь легендарного сокровища. Но будьте осторожны: на пути вас подстерегают скользкие слизни – опасные существа, которые могут замедлить ваше движение или нанести урон. Игра сочетает в себе классический геймплей платформеров с фэнтезийными элементами, такими как сбор предметов и бонусы. UP! идеально подходит для любителей вызовов и тех, кто хочет провести время весело и активно.</p>
+    </section>
+
+    <section id="gameplay">
+        <h2>Геймплей</h2>
+        <p>В UP! вы управляете рыцарем, который может прыгать, бегать и использовать гаджеты, чтобы преодолевать препятствия. Каждый уровень становится сложнее: от простых платформ до головоломок с гравитацией. Собирайте монеты, чтобы открывать новые способности, такие как двойной прыжок или щит от шипов. Особое внимание уделяйте слизням – они появляются внезапно и требуют осторожности: перепрыгивайте через них или используйте специальные атаки, чтобы их уничтожить. Игра имеет 10 уровней, разделенных на миры с уникальными темами – от мрачных подземелий до волшебных лесов.</p>
+        <ul>
+            <li><strong>Простое управление:</strong> Используйте клавиши WASD или стрелки для движения, пробел для прыжка.</li>
+            <li><strong>Мультиплеер:</strong> Играйте с друзьями в кооперативном режиме на одном устройстве.</li>
+            <li><strong>Достижения:</strong> Получайте награды за скорость прохождения, сбор всех предметов и беспроигрышные серии, включая избежание слизней без урона.</li>
+        </ul>
+    </section>
+
+    <section id="screenshots">
+        <h2>Скриншоты</h2>
+        <p>Вот несколько изображений из игры (в реальности замените на настоящие скриншоты):</p>
+        <img src="https://via.placeholder.com/600x300?text=Скриншот+1:+Рыцарь+на+старте+уровня" alt="Скриншот 1">
+        <img src="https://via.placeholder.com/600x300?text=Скриншот+2:+Битва+со+слизнями" alt="Скриншот 2">
+        <img src="https://via.placeholder.com/600x300?text=Скриншот+3:+Финальный+уровень" alt="Скриншот 3">
+    </section>
+
+    <section id="download">
+        <h2>Скачать игру</h2>
+        <p>UP! доступна для скачивания на платформах PC (Windows/Mac), Android и iOS. Версия игры – 1.0, размер файла около 200 МБ. Скачайте бесплатно с нашего сайта или из магазинов приложений!</p>
+        <a href="#" style="background-color: #4CAF50; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Скачать для PC</a>
+        <a href="#" style="background-color: #4CAF50; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-left: 10px;">Скачать для Android</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Разработчик игры UP!. Все права защищены.</p>
+    </footer>
+</body>
+</html>
